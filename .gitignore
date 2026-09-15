@@ -1,23 +1,9 @@
-# Python
 __pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual envs
+*.pyc
 .venv/
-venv/
-ENV/
-
-# Logs
-*.log
-
-# OS files
+.pytest_cache/
+.ruff_cache/
+dist/
+caddy/data/
+.superpowers/
 .DS_Store
-
-# IDE
-.vscode/
-.idea/
-
-# Claude
-CLAUDE.md
-.claude/
